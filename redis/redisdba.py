@@ -120,7 +120,7 @@ def get_net_info(port):
 	#print match_tr
 #cat /proc/54433/net/dev
 	for stat in match_tr:
-		dev_stat_list = stat.replace(":"," ").split()
+		dev_stat_list = stat.replace(":"," ").split() 
 		sum_net_rx += int(dev_stat_list[1])
 		sum_pkg_rx += int(dev_stat_list[2])
 		sum_drop_rx += int(dev_stat_list[4])
