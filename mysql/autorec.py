@@ -1,4 +1,4 @@
-#!/data1/Python-2.7.4/bin/python
+#!/bin/python
 #coding=utf-8
 #by jiasir
 #mysql 自动处理slave错误,脚本建议本机执行
