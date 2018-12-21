@@ -1,4 +1,4 @@
-#!/data1/Python-2.7.4/bin/python
+#!/bin/python
 #coding=utf-8
 #by jiasir
 import datetime
